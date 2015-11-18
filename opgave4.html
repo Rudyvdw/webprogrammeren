@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Opgave 4 Bezorgkosten</title>
+</head>
+
+<body>
+
+<script>
+	var aankoopBedrag;
+	aankoopBedrag = prompt("Wat is het aankoopbedrag?");
+	aankoopBedrag = parseFloat(aankoopBedrag);
+	var totaalBedrag;
+
+	if (aankoopBedrag >= 25.00) {
+    alert("het totaalbedrag is " + aankoopBedrag + ". Je bestelling wordt gratis verzonden!");
+	}
+
+	else { 
+		totaalBedrag = aankoopBedrag + 3.95
+    alert("Het totaalbedrag incl. bezorkosten is " + totaalBedrag);
+	}
+
+</script>
+
+</body>
+
+</html>
+
